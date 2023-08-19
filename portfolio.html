@@ -4,155 +4,171 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/CSS/styles.css" />
   </head>
-  <body class="portfolio">
+  <body class="body">
     <header class="header">
       <nav class="header-nav">
-        <a class="logo" href="./index.html"
+        <a class="logo link" href="./index.html"
           ><span class="logo-aside">Web</span>Studio</a
         >
-        <ul>
-          <li><a class="header-link-nav" href="./index.html">Studio</a></li>
-          <li>
-            <a class="header-link-nav" href="./portfolio.html">Portfolio</a>
+        <ul class="header-list list">
+          <li class="header-item item">
+            <a class="header-link-nav link" href="./index.html">Studio</a>
           </li>
-          <li><a class="header-link-nav" href="">Contacts</a></li>
+          <li class="header-item item">
+            <a class="header-link-nav link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="header-item item">
+            <a class="header-link-nav link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
+      <address class="header-addres">
+        <ul class="address-list list">
           <li>
-            <a class="header-addres" href="mailto:info@devstudio.com"
+            <a class="header-addres link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="header-addres" href="tel:+110001111111"
+            <a class="header-addres link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
         </ul>
       </address>
     </header>
-    <main>
-      <section>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
-        </ul>
-      </section>
-      <section>
-        <ul>
+    <main class="main">
+      <section class="btn-port">
+        <h1 hidden>Our works</h1>
+        <ul class="btn-list list">
+          <li><button class="btn btn-all" type="button">All</button></li>
           <li>
+            <button class="btn btn-website" type="button">Web Site</button>
+          </li>
+          <li><button class="btn btn-app" type="button">App</button></li>
+          <li><button class="btn btn-design" type="button">Design</button></li>
+          <li>
+            <button class="btn btn-marketing" type="button">Marketing</button>
+          </li>
+        </ul>
+        <ul class="port-list list">
+          <li class="port-item">
             <img
-              src="./images/level a/img.jpg"
+              class="port-img"
+              src="./images/level a/img-2.jpg"
               alt="Banking App Interface Concept"
               width="360"
               height="300"
             />
-            <h2>Banking App Interface Concept</h2>
-            <p>App</p>
+            <h2 class="port-title">Banking App Interface Concept</h2>
+            <p class="port-subtitle">App</p>
           </li>
-          <li>
+          <li class="port-item">
             <img
+              class="port-img"
               src="./images/level a/img-1.jpg"
               alt="Cashless Payment"
               width="360"
               height="300"
             />
-            <h2>Cashless Payment</h2>
-            <p>Marketing</p>
+            <h2 class="port-title">Cashless Payment</h2>
+            <p class="port-subtitle">Marketing</p>
           </li>
-          <li>
+          <li class="port-item">
             <img
-              src="./images/level a/img-2.jpg"
+              class="port-img"
+              src="./images/level a/img.jpg"
               alt="Meditation App"
               width="360"
               height="300"
             />
-            <h2>Meditation App</h2>
-            <p>App</p>
+            <h2 class="port-title">Meditation App</h2>
+            <p class="port-subtitle">App</p>
           </li>
-        </ul>
-      </section>
-      <section>
-        <ul>
-          <li>
+          <li class="port-item">
             <img
-              src="./images/level b/img.jpg"
+              class="port-img"
+              src="./images/level b/img-2.jpg"
               alt="Taxi Service"
               width="360"
               height="300"
             />
-            <h2>Taxi Service</h2>
-            <p>Marketing</p>
+            <h2 class="port-title">Taxi Service</h2>
+            <p class="port-subtitle">Marketing</p>
           </li>
-          <li>
+          <li class="port-item">
             <img
+              class="port-img"
               src="./images/level b/img-1.jpg"
               alt="Screen Illustrations"
               width="360"
               height="300"
             />
-            <h2>Screen Illustrations</h2>
-            <p>Design</p>
+            <h2 class="port-title">Screen Illustrations</h2>
+            <p class="port-subtitle">Design</p>
           </li>
-          <li>
+          <li class="port-item">
             <img
-              src="./images/level b/img-2.jpg"
+              class="port-img"
+              src="./images/level b/img.jpg"
               alt="Online Courses"
               width="360"
               height="300"
             />
-            <h2>Online Courses</h2>
-            <p>Marketing</p>
+            <h2 class="port-title">Online Courses</h2>
+            <p class="port-subtitle">Marketing</p>
           </li>
-        </ul>
-      </section>
-      <section>
-        <ul>
-          <li>
+          <li class="port-item">
             <img
-              src="./images/level c/img.jpg"
+              class="port-img"
+              src="./images/level c/img-2.jpg"
               alt="Instagram Stories Concept"
               width="360"
               height="300"
             />
-            <h2>Instagram Stories Concept</h2>
-            <p>Design</p>
+            <h2 class="port-title">Instagram Stories Concept</h2>
+            <p class="port-subtitle">Design</p>
           </li>
-          <li>
+          <li class="port-item">
             <img
+              class="port-img"
               src="./images/level c/img-1.jpg"
               alt="Organic Food"
               width="360"
               height="300"
             />
-            <h2>Organic Food</h2>
-            <p>Web Site</p>
+            <h2 class="port-title">Organic Food</h2>
+            <p class="port-subtitle">Web Site</p>
           </li>
-          <li>
+          <li class="port-item">
             <img
-              src="./images/level c/img-2.jpg"
+              class="port-img"
+              src="./images/level c/img.jpg"
               alt="Fresh Coffee"
               width="360"
               height="300"
             />
-            <h2>Fresh Coffee</h2>
-            <p>Web Site</p>
+            <h2 class="port-title">Fresh Coffee</h2>
+            <p class="port-subtitle">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="./index.html"
+      <a class="footer-logo link" href="./index.html"
         ><span class="logo-aside">Web</span>Studio</a
       >
-      <p class="footer text">
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

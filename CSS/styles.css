@@ -1,24 +1,220 @@
+.body {
+  font-family: Roboto, sans-serif;
+  color: #111;
+  /* font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.2; */
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+  max-width: 100;
+  height: auto;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: currentColor;
+  list-style: none;
+}
+.btn {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
 /**
   |============================
   | Header
   |============================
 */
-.body {
-}
 .header {
 }
 .header-nav {
 }
 .logo {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-aside {
+  color: var(--iris, #4d5ae5);
 }
 .header-link-nav {
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 .header-addres {
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 /**
   |============================
-  | 
+  | main
   |============================
 */
+.main {
+}
+.hero {
+  background: var(--navyblue, #2e2f42);
+}
+.hero-title {
+  color: var(--white, #fff);
+  /* Header 1 */
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.btn {
+  background: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  /* Button Text */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.list {
+}
+.advantages-item {
+}
+.advantages-subtitle {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+.advantages-text {
+  color: var(--slate, #434455);
+  /* Body */
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.work {
+}
+.work-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.work-list {
+}
+.work-item {
+}
+.item {
+}
+.team {
+  background: var(--cloud, #f4f4fd);
+}
+.team-title {
+  color: var(--navyblue, #2e2f42);
+  /* Header 2 */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+}
+.team-item {
+}
+.team-subtitle {
+  color: var(--navyblue, #2e2f42);
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.team-text {
+  color: var(--slate, #434455);
+  /* Body */
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/**
+  |============================
+  | footer
+  |============================
+*/
+.footer {
+  background: var(--navyblue, #2e2f42);
+}
+.logo {
+}
+.footer-logo {
+  color: var(--cloud, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo-aside {
+  color: var(--iris, #4d5ae5);
+}
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  /* Body */
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Доробити портфоліо I CSS-змінні 
+  |============================
+*/
+
+.btn-port {
+}
+.btn-list {
+}
+.list {
+}
+.btn {
+}
+.btn-all {
+}
+.btn-website {
+}
+.btn-app {
+}
+.btn-design {
+}
+.btn-marketing {
+}
+.port-list {
+}
+.port-item {
+}
+.port-img {
+}
+.port-title {
+}
+.port-subtitle {
+}
