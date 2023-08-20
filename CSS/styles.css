@@ -9,12 +9,7 @@
 
 .body {
   font-family: Roboto, sans-serif;
-  color: #111;
-  /* font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: normal;
-  line-height: 1.2; */
+  color: var(--navyblue);
 }
 address {
   font-style: normal;
@@ -37,11 +32,6 @@ img {
   color: currentColor;
   cursor: pointer;
 }
-/**
-  |============================
-  | Header
-  |============================
-*/
 .header {
 }
 .header-nav {
@@ -51,7 +41,7 @@ img {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -60,7 +50,7 @@ img {
 }
 .header-link {
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .header-link:hover,
@@ -68,18 +58,13 @@ img {
   color: var(--ocean);
 }
 .header-addres {
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .header-addres :hover,
 .header-addres:focus {
   color: var(--ocean);
 }
-/**
-  |============================
-  | main
-  |============================
-*/
 .main {
 }
 .hero {
@@ -89,14 +74,14 @@ img {
   color: var(--white);
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .btn-hero {
   background: var(--iris);
   color: var(--white);
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 .btn-hero:hover,
@@ -118,13 +103,12 @@ img {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .advantages-text {
   color: var(--slate);
-  /* Body */
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .work {
@@ -133,7 +117,7 @@ img {
   color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -148,10 +132,9 @@ img {
 }
 .team-title {
   color: var(--navyblue);
-  /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -161,23 +144,16 @@ img {
 }
 .team-subtitle {
   color: var(--navyblue);
-  /* Header 3 */
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .team-text {
   color: var(--slate);
-  /* Body */
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/**
-  |============================
-  | footer
-  |============================
-*/
 .footer {
   background: var(--navyblue);
 }
@@ -188,7 +164,7 @@ img {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16px; /* 116.667% */
+  line-height: 1.16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -197,17 +173,9 @@ img {
 }
 .footer-text {
   color: var(--cloud);
-  /* Body */
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-/**
-  |============================
-  | Доробити портфоліо I CSS-змінні 
-  |============================
-*/
-
 .btn-port {
 }
 .btn-list {
