@@ -64,8 +64,15 @@ p {
 .header {
   display: flex;
   height: 72px;
+  /* justify-content: space-between;
+  align-items: center; */
+
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+}
+
+.header-container {
+  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .header-list {
@@ -288,7 +295,8 @@ p {
   width: 264px;
   margin-top: 17.5px;
 }
-.btn-port {
+.projects {
+  margin-top: 96px;
 }
 .btn-item {
   color: var(--iris);
@@ -297,13 +305,32 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--cloud);
+
+  display: flex;
+  padding: 12px 24px;
+  align-items: flex-start;
+
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
+  &:active {
+    color: var(--white, #fff);
+    border: 1px solid var(--ocean, #404bbf);
+    background: var(--ocean, #404bbf);
+  }
 }
 .btn-item:hover,
 .btn-item:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
-.list {
+
+.btn-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
 }
 .btn {
 }
@@ -317,20 +344,21 @@ p {
 }
 .btn-marketing {
 }
-.port-list {
+.projects-list {
+  margin-top: ;
 }
-.port-item {
+.projects-item {
 }
-.port-img {
+.projects-img {
 }
-.port-title {
+.projects-title {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.port-subtitle {
+.projects-subtitle {
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
