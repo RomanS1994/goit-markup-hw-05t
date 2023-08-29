@@ -21,6 +21,7 @@ address {
 }
 img {
   max-width: 100;
+  display: block;
 }
 .list {
   margin: 0;
@@ -73,22 +74,27 @@ p {
 .header-container {
   display: flex;
   justify-content: space-between;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  align-items: center;
 }
 
 .header-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 
   margin-left: 76px;
 }
 
 .address-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -99,6 +105,8 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+
+  margin-right: 76px;
 }
 
 .aside {
@@ -110,6 +118,7 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-link:hover,
@@ -284,6 +293,9 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-aside {
   color: var(--cloud);
