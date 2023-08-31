@@ -381,6 +381,7 @@ p {
 }
 
 .projects-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .projects-img {
