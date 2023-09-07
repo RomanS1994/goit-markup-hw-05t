@@ -79,7 +79,7 @@ p {
   display: flex;
   height: 72px;
 
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .header-container {
@@ -219,7 +219,7 @@ p {
   align-items: center;
   justify-content: center;
   height: 112px;
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
   border-radius: 4px;
   margin-bottom: 8px;
 }
@@ -357,9 +357,67 @@ p {
 
 .team-icon {
   position: absolute;
-  position: absolute;
   top: 12px;
   left: 12px;
+}
+
+/**
+  |============================
+  | Section 3 customers
+  |============================
+*/
+.customers-contaainer {
+}
+
+.customers-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  padding-top: 120px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumb {
+  display: block;
+  position: relative;
+  width: 168px;
+  height: 88px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+
+  margin-top: 72px;
+  margin-bottom: 120px;
+}
+
+.customers-logo {
+  position: absolute;
+  bottom: 16px;
+  right: 32px;
+  fill: #8e8f99;
+}
+.thumb:hover,
+.thumb:focus {
+  border: 1px solid var(--OCEAN, #404bbf);
+  /* fill: #404bbf; */
+  /* fill: #404bbf; */
+}
+
+.thumb:hover svg,
+.thumb:focus svg {
+  fill: #404bbf;
+}
+
+.customers-link {
 }
 /**
   |============================
