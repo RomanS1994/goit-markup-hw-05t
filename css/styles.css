@@ -591,10 +591,12 @@ p {
   width: calc((100% - 48px) / 3);
   position: relative;
 }
+
 .project-item:hover .overlay-block {
   transform: translate(0);
   transition: transform 250ms;
 }
+
 .projects-img {
   display: block;
 }
