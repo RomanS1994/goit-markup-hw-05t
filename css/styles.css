@@ -125,31 +125,49 @@ p {
   color: var(--navyblue);
 }
 
-.header-link::after {
-  color: var(--navyblue);
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 0 0;
+/* .header-link::after {
+  content: '';
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  left: 0;
+  width: 67px;
+  height: 4px;
+  color: #404bbf;
+  border-radius: 2px;
 }
-
+*/
 .header-link:hover,
 .header-link:focus {
   color: var(--ocean);
 }
 
-.header-link {
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-
-  background-color: #404bbf;
-  border-radius: 2px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.header-list {
 }
 
+.header-item {
+  gap: 40px;
+}
+.header-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  font-weight: 500;
+  line-height: 1.5em; /* 150% */
+  letter-spacing: 0.02px;
+
+  display: flex;
+  width: 66px;
+  height: 52px;
+  padding-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-link::after {
+  width: 48px;
+  height: 4px;
+
+  border-radius: 2px;
+  background-color: var(--OCEAN, #404bbf);
+}
 .header-addres {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -413,6 +431,9 @@ p {
   text-align: center;
 }
 
+.icon-item {
+  height: 100%;
+}
 .team-socials-link {
   position: relative;
   display: flex;
@@ -445,7 +466,8 @@ p {
   | Section 3 customers
   |============================
 */
-.customers-contaainer {
+.customers {
+  padding-top: 120px;
 }
 
 .customers-title {
@@ -500,6 +522,7 @@ p {
 }
 
 .customers-link {
+  height: 100%;
 }
 /**
   |============================
