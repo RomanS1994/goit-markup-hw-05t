@@ -125,14 +125,13 @@ p {
   color: var(--navyblue);
 }
 
-.header-link {
+.header-link::after {
   color: var(--navyblue);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
+  padding: 0 0;
 
-  position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -141,9 +140,7 @@ p {
   color: var(--ocean);
 }
 
-.header-link::after {
-  content: '';
-  position: absolute;
+.header-link {
   left: 0;
   bottom: -1px;
   height: 4px;
@@ -174,7 +171,7 @@ p {
 
 .hero {
   background: var(--navyblue);
-  width: 1440px;
+  max-width: 1440px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -185,7 +182,7 @@ p {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/fon/people-office\ 1.jpg);
+    url(../images/img-name.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -420,9 +417,11 @@ p {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 8px;
   width: 40px;
   height: 40px;
+
   background-color: var(--iris);
   border-radius: 50%;
 
@@ -431,13 +430,14 @@ p {
 
 .team-socials-link:hover,
 .team-socials-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .team-icon {
   position: absolute;
   top: 12px;
   left: 12px;
+  fill: #f4f4fd;
 }
 
 /**
@@ -663,11 +663,6 @@ p {
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-*::before,
-::after {
-  box-sizing: c;
 }
 
 .row-one {
