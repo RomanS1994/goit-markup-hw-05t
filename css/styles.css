@@ -148,9 +148,8 @@ p {
 }
 .header-link {
   position: relative;
-  color: #404bbf;
 
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--navyblue);
 
   font-weight: 500;
   line-height: 1.5em; /* 150% */
