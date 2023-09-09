@@ -508,9 +508,6 @@ p {
 
   margin-top: 72px;
   margin-bottom: 120px;
-
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-logo {
@@ -542,6 +539,9 @@ p {
   align-items: center;
   justify-content: center;
   color: var(--custfill);
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /**
   |============================
@@ -558,7 +558,7 @@ p {
   align-items: baseline;
 }
 
-.footer-conteiner-logo {
+.footer-conteiner-text {
   margin-right: 120px;
 }
 .footer-logo {
@@ -585,7 +585,13 @@ p {
 }
 
 .footer-list {
+  gap: 16px;
   display: flex;
+}
+
+.footer-item {
+  width: 40px;
+  height: 40px;
 }
 
 .footer-subtitle {
