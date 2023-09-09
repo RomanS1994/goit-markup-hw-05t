@@ -439,7 +439,8 @@ p {
 }
 
 .icon-item {
-  height: 100%;
+  width: 40px;
+  height: 40px;
 }
 .team-socials-link {
   position: relative;
@@ -470,11 +471,12 @@ p {
 
 /**
   |============================
-  | Section 3 customers
+  | Section 4 customers
   |============================
 */
 .customers {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .customers-title {
@@ -482,23 +484,25 @@ p {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .customers-list {
+  gap: 24px;
   display: flex;
   justify-content: space-between;
 }
 
-.thumb {
+.customers-item {
+  height: 88px;
   display: block;
   position: relative;
   width: 168px;
-  height: 88px;
+
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
@@ -517,13 +521,13 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.thumb:hover,
-.thumb:focus {
+.customers-item:hover,
+.customers-item:focus {
   border-color: var(--OCEAN, #404bbf);
 }
 
-.thumb:hover svg,
-.thumb:focus svg {
+.customers-item:hover svg,
+.customers-item:focus svg {
   fill: #404bbf;
   border-color: var(--OCEAN, #404bbf);
 }
@@ -540,6 +544,13 @@ p {
   padding: 100px 0;
 }
 
+.footer-conteiner {
+  display: flex;
+}
+
+.footer-conteiner-logo {
+  margin-right: 120px;
+}
 .footer-logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
@@ -580,7 +591,6 @@ p {
   height: 24px;
   top: 8px;
   left: 8px;
-  margin-top: ;
 }
 /**
   |============================
