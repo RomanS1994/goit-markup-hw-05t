@@ -148,7 +148,7 @@ p {
 }
 .header-link {
   position: relative;
-
+  color: #404bbf;
   color: var(--navyblue);
 
   font-weight: 500;
