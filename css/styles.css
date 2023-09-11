@@ -655,6 +655,9 @@ p {
   letter-spacing: 0.32px;
 }
 /* revievs form styles */
+.odal-form-field-box {
+  margin-bottom: 8px;
+}
 
 .modal-form-label {
   display: block;
@@ -671,8 +674,6 @@ p {
 }
 .modal-form-field {
   position: relative;
-
-  margin-bottom: 8px;
 }
 .modal-form-input {
   padding-left: 34px;
