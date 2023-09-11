@@ -10,7 +10,7 @@
   --dayri: #fcfcfc;
   --light-slate; #8e8f99;
 
-  --NAVY-BLUE-modal: rgba (46, 47, 66, 0.4);
+  --NAVY-BLUE-modal: rgba(46, 47, 66, 0.4);
 }
 
 .visually-hidden {
@@ -834,7 +834,7 @@ input::placeholder {
   gap: 16px;
 }
 .footer-btn-svg {
-  fill: #var(--white);
+  fill: var(--white);
 }
 
 /**
@@ -865,7 +865,7 @@ input::placeholder {
 }
 
 /* &:active {
-  color: var(--white, #var(--white));
+  color: var(--white, var(--white));
   border: 1px solid var(--ocean);
   background: var(--ocean);
 } */
