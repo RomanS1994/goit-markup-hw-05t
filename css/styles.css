@@ -691,11 +691,18 @@ p {
   border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
   outline: transparent;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:hover,
 .modal-form-input:focus {
   border: 1px solid var(--iris);
+  fill: var(--iris);
+}
+
+.modal-form-input:hover + .modal-form-icon,
+.modal-form-input:focus + .modal-form-icon {
   fill: var(--iris);
 }
 
@@ -773,20 +780,13 @@ p {
   fill: transparent;
 }
 
-/* .modal-form-checkbox-icon-svg {
-  fill: transparent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-input[type='checkbox'] :checked ~ .modal-form-checkbox-icon {
+input[type='checkbox']:checked
+  ~ .modal-form-checkbox-label
+  > .modal-form-checkbox-icon {
   background-color: var(--iris);
-  border-color: none;
+  border: none;
   fill: var(--cloud);
 }
-
-/* input[type='checkbox']:checked
-  ~ .modal-form-checkbox-icon
-  > .modal-form-checkbox-icon-svg {
-  fill: var(--cloud); */
 
 .modal-form-egreement-link {
   color: var(--iris);
