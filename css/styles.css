@@ -783,7 +783,7 @@ p {
 input[type='checkbox']:checked
   ~ .modal-form-checkbox-label
   > .modal-form-checkbox-icon {
-  background-color: var(--iris);
+  background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
 }
