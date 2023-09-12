@@ -542,7 +542,11 @@
           <p class="footer-subtitle">Subscribe</p>
           <form class="footer-form">
             <label class="footer-label">
-              <input class="footer-input" type="email" placeholder="E-mail"
+              <input
+                class="footer-input"
+                type="email"
+                name="footer-input-logo"
+                placeholder="E-mail"
             /></label>
             <button type="submit" class="btn btn-hero footer-btn">
               Subscribe
@@ -619,7 +623,7 @@
           </div>
           <div class="modal-form-checkbox">
             <input
-              class="modal-checkbox-input visually-hidden"
+              class="modal-checkbox-input"
               value="true"
               type="checkbox"
               name="user-privacy"
@@ -631,9 +635,7 @@
                   <use href="./images/icons.svg#checkbox"></use>
                 </svg>
               </span>
-            </label>
-            <span class="modal-form-egreement-desc"
-              >I accept the terms and conditions of the
+              I accept the terms and conditions of the
               <a
                 class="modal-form-egreement-link"
                 href=""
@@ -641,7 +643,7 @@
                 rel="noopener noreferrer"
                 >Privacy Policy
               </a>
-            </span>
+            </label>
           </div>
           <button class="btn btn-hero" type="submit">Send</button>
         </form>

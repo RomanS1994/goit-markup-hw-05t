@@ -669,31 +669,34 @@ p {
   display: block;
   margin-bottom: 4px;
 
-  color: var(--light-slate);
-
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+
   border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--light-slate);
 }
 .modal-form-field {
   position: relative;
 }
 .modal-form-input {
   padding-left: 38px;
-  outline: transparent;
+
   height: 40px;
   width: 100%;
 
   border-radius: 4px;
   border: 1px solid var(--NAVY-BLUE-modal);
 
+  border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
+  outline: transparent;
 }
 
 .modal-form-input:hover,
 .modal-form-input:focus {
-  border-radius: 4px;
   border: 1px solid var(--iris);
+  fill: var(--iris);
 }
 
 .modal-form-icon {
@@ -705,10 +708,6 @@ p {
   transform: translateY(-50%);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-form-field:hover svg,
-.modal-form-field:focus svg {
-  fill: #4d5ae5;
 }
 
 .modal-form-coment {
@@ -768,41 +767,32 @@ p {
   border-radius: 2px;
   margin-right: 8px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
 }
 
-.modal-form-checkbox-icon-svg {
+/* .modal-form-checkbox-icon-svg {
   fill: transparent;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-input[type='checkbox']:checked ~ .modal-form-checkbox-icon {
+} */
+input[type='checkbox'] :checked ~ .modal-form-checkbox-icon {
   background-color: var(--iris);
   border-color: none;
   fill: var(--cloud);
 }
 
-input[type='checkbox']:checked
+/* input[type='checkbox']:checked
   ~ .modal-form-checkbox-icon
   > .modal-form-checkbox-icon-svg {
-  fill: var(--cloud);
-}
-.modal-form-egreement-desc {
-  /* color: var(--light-slate);
-  pointer-events: none;
+  fill: var(--cloud); */
 
-  line-height: 14px;
-  letter-spacing: 0.04em; */
-}
 .modal-form-egreement-link {
   color: var(--iris);
 
-  /* Link Text */
-  font-family: Roboto;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 16px;
-  letter-spacing: 0.48px;
+  letter-spacing: 0.04em;
   text-decoration-line: underline;
 }
 
@@ -825,10 +815,14 @@ input[type='checkbox']:checked
   padding-left: 16px;
   width: 264px;
   height: 40px;
+
   border-radius: 4px;
   border: 1px solid var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
   background-color: transparent;
+  color: #ffffff;
+
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
