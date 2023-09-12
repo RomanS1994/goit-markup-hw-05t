@@ -540,17 +540,10 @@
         </div>
         <div class="footer-conteiner-imput">
           <p class="footer-subtitle">Subscribe</p>
-          <form class="footer-input-btn">
-            <label for="footer-input" id="footer-input">
-              <div>
-                <input
-                  class="footer-input"
-                  type="text"
-                  name="footer-input"
-                  placeholder="E-mail"
-                />
-              </div>
-            </label>
+          <form class="footer-form">
+            <label class="footer-label">
+              <input class="footer-input" type="email" placeholder="E-mail"
+            /></label>
             <button type="submit" class="btn btn-hero footer-btn">
               Subscribe
               <svg class="footer-btn-svg" width="24" height="24">
@@ -614,30 +607,31 @@
               </svg>
             </div>
           </div>
-          <div class="modal-form-field-box">
+          <div class="modal-form-coment">
             <label class="modal-form-label" for="user-comment">Comment</label>
-            <div class="modal-form-field">
-              <textarea
-                class="modal-form-texterea"
-                name="user-comment"
-                id="user-comment"
-                rows="7"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+            <textarea
+              class="modal-form-texterea"
+              name="user-comment"
+              id="user-comment"
+              rows="7"
+              placeholder="Text input"
+            ></textarea>
           </div>
-          <label class="modal-form-agreement" for="user-agryyment">
+          <div class="modal-form-checkbox">
             <input
-              class="visually-hidden"
+              class="modal-checkbox-input visually-hidden"
+              value="true"
               type="checkbox"
-              name="user-agryyment"
-              id="user-agryyment"
+              name="user-privacy"
+              id="user-privacy"
             />
-            <span class="modal-form-checkbox-icon">
-              <svg class="modal-form-checkbox-icon-svg" width="10" height="8">
-                <use href="./images/icons.svg#checkbox"></use>
-              </svg>
-            </span>
+            <label class="modal-form-checkbox-label" for="user-privacy">
+              <span class="modal-form-checkbox-icon">
+                <svg class="modal-form-checkbox-icon-svg" width="10" height="8">
+                  <use href="./images/icons.svg#checkbox"></use>
+                </svg>
+              </span>
+            </label>
             <span class="modal-form-egreement-desc"
               >I accept the terms and conditions of the
               <a
@@ -648,7 +642,7 @@
                 >Privacy Policy
               </a>
             </span>
-          </label>
+          </div>
           <button class="btn btn-hero" type="submit">Send</button>
         </form>
       </div>
